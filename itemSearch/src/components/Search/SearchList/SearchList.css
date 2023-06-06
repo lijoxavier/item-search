@@ -1,0 +1,31 @@
+.search-list-container{
+    /* background-color: rgb(200, 28, 28); */
+    height: 380px;
+    overflow: auto;
+}
+/* .search-list-container .heading-section{
+    background-color: #303846;
+   text-align: center;
+} */
+.search-list-items{
+    display: flex;
+    align-items: center;
+    word-break: break-all;
+    background-color: #374051;
+    margin-bottom: 5px;
+    border: 4px;
+    padding: 10px;
+
+}
+.search-list-items .title{
+    width: 366px;
+    padding: 20px;
+}
+.search-list-items .price{
+    flex-basis: 200px;
+    /* flex-grow: 0; */
+}
+.search-list-items .buy {
+    flex-basis: 180px;
+    /* flex-grow: 0; */
+}
